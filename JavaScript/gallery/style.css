@@ -1,0 +1,49 @@
+body{
+	background-color:#ccc;
+}
+.gallery{
+	background-color:#fff;
+	width:100%;
+	max-width: 700px;
+	margin:0 auto;
+	padding:5px;
+
+}
+.thumbnails img{
+	width:25%;
+	padding:4px;
+	box-sizing: border-box;
+
+
+}
+.thumbnails{
+	font-size: 0;
+	border-style: none;
+}
+.thumbnails img:hover{
+	opacity:0.3;
+}
+.viewer img{
+	width:100%;
+	height:auto;
+	display: block;
+
+   
+
+}
+.viewer{
+	padding:5px;
+	position:relative;
+}
+.viewer p{
+	color:green;
+	padding:15px;
+	position: absolute;
+	background:rgba(255,255,255,0.5);
+	display: block;
+	top:0;
+    left:0;
+   
+
+
+}

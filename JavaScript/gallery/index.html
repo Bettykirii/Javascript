@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="gallery"> 
+ <div class="thumbnails">
+ 	<img src="images/1.jpg" data-caption ="Fashion streetstyle">
+ 	<img src="images/2.jpg" data-caption ="cute cat">
+ 	<img src="images/3.jpg" data-caption ="sweet donuts baked">
+ 	<img src="images/4.jpg" data-caption =" United states street">
+ 	<img src="images/5.jpg" data-caption ="tallest building">
+ 	<img src="images/6.jpg" data-caption ="Electric train">
+ 	<img src="images/7.jpg" data-caption ="olympics winners">
+ 	<img src="images/8.jpg" data-caption ="tree and nature">
+ </div>
+ <div class="viewer">
+  
+ </div>
+
+</div>
+
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+
+
+<script>
+ $('.viewer').click(function(){
+ 	$('.thumbnails').toggle(10000);
+ })
+</script>
+
+</body>
+</html>

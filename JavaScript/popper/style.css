@@ -1,0 +1,92 @@
+body{
+	color:#fff;
+	margin:0;
+	font-family: arial;
+}
+.top{
+	height:80px;
+	width:100%;
+	background-color: #2E3842;
+}
+ h3{
+	color:#fff;
+	text-align: center;
+	padding-top: 30px;
+
+
+}
+.cont{
+	height:300px;
+	width:100%;
+	background-color: #21B2A6;
+
+}
+.cont p{
+	color: #fff;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 30px;
+	margin:0;
+
+}
+.lib p{
+	margin-top: -40px;
+	font-size: 15px;
+	
+}
+.lib{
+	margin-top: 30px;
+}
+button{
+	color:#fff;
+	height:50px;
+	width:200px;
+	background-color: #ED4933;
+	border-radius: 30px;
+	margin-left: 600px;
+	margin-top: 50px;
+	border-style: none;
+}
+.timer{
+	background-color: #fff;
+	max-width:100%;
+	height: 250px;
+}
+.line{
+	background-color: #fff;
+	width:100%;
+	color:#000;
+	text-align: center;
+}
+.countdown {
+	padding: 40px 20px;
+}
+
+.countdown-widget {
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.timer-box {
+	padding:10px; 
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.timer-box .label {
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	color: black;
+}
+
+.timer-box .value {
+	background: #21B2A6;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 20px; 
+}
+
